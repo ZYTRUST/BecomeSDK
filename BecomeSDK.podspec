@@ -8,7 +8,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "BecomeSDK"
-  spec.version      = "1.2.2"
+  spec.version      = "1.2.3"
   spec.summary      = "App Become para validación biométrica de identidad en el sistema iOS.."
 
   # This description is used to generate tags and improve search results.
@@ -31,6 +31,6 @@ Pod::Spec.new do |spec|
 
   spec.requires_arc = true
 
-  spec.vendored_frameworks = "BecomeDigitalV.framework"
+  spec.vendored_frameworks = "BecomeDigitalV.xcframework"
 
 end
